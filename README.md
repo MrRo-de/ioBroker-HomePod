@@ -3,7 +3,7 @@ Workaround um über Siri (HomePod) bestimmte Datenpunkte aus dem ioBroker abfrag
 
 zunächst benötigt man den Adapter: simple RESTful API
 
-![Bildschirmfoto 2021-04-10 um 17 17 13](https://user-images.githubusercontent.com/66023319/114274881-b1599080-9a20-11eb-9d5d-3d652f71b881.png | width=100)
+![Bildschirmfoto 2021-04-10 um 17 17 13](https://user-images.githubusercontent.com/66023319/114274881-b1599080-9a20-11eb-9d5d-3d652f71b881.png)
 
 Anschließend erzeugt man sich einen Datenpunkt mit dem Text der von Siri wiedergegeben werden soll:
 
@@ -36,4 +36,4 @@ Um nun mittels Siri darauf zugreifen zu können erstellen wir auf einem iOS-Ger�
   Inhalt der URL
   
 Das sollte dann so aussehen:
-![Tanken](https://user-images.githubusercontent.com/66023319/114275745-f8955080-9a23-11eb-947b-98bae40c9f7c.png | width=200)
+![Tanken](https://user-images.githubusercontent.com/66023319/114275745-f8955080-9a23-11eb-947b-98bae40c9f7c.png){:height="50%"}
