@@ -36,4 +36,5 @@ Um nun mittels Siri darauf zugreifen zu kÃ¶nnen erstellen wir auf einem iOS-GerÃ
   Inhalt der URL
   
 Das sollte dann so aussehen:
-![Tanken](https://user-images.githubusercontent.com/66023319/114275745-f8955080-9a23-11eb-947b-98bae40c9f7c.png){:height="50%"}
+
+<img src="https://user-images.githubusercontent.com/66023319/114275745-f8955080-9a23-11eb-947b-98bae40c9f7c.png" height="50">
