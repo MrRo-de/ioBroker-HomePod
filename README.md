@@ -42,3 +42,12 @@ Um nun mittels Siri darauf zugreifen zu können erstellen wir auf einem iOS-Ger�
 Das sollte dann so aussehen:
 
 <img src="https://user-images.githubusercontent.com/66023319/114275745-f8955080-9a23-11eb-947b-98bae40c9f7c.png" height="500">
+
+
+### 4. Bestätigen
+
+    * Nun Bestätigen wir die Einstellungen mit fertig
+
+    * Fragen wir nun: Hey Siri, tanken
+
+        * Kommt als Antwort: Du zahlst 1 Euro 30 je Liter.
