@@ -1,9 +1,11 @@
 # ioBroker-HomePod
 Workaround um über Siri (HomePod) bestimmte Datenpunkte aus dem ioBroker abfragen zu können
 
+## Anleitung
+
 zunächst benötigt man den Adapter: simple RESTful API
 
-<img src="https://user-images.githubusercontent.com/66023319/114274881-b1599080-9a20-11eb-9d5d-3d652f71b881.png" height="250">
+<img src="https://user-images.githubusercontent.com/66023319/114274881-b1599080-9a20-11eb-9d5d-3d652f71b881.png" height="200">
 
 Anschließend erzeugt man sich einen Datenpunkt mit dem Text der von Siri wiedergegeben werden soll:
 
@@ -19,21 +21,23 @@ on("tankerkoenig.0.stations.cheapest.e5.feed", function(dp) {
 
 Um nun mittels Siri darauf zugreifen zu können erstellen wir auf einem iOS-Gerät ein Kurzbefehl:
 
-1. Kurzbefehl umbennen
+### 1. Kurzbefehl umbennen
 
-  Diesen Namen verwendet man als Sprachbefehl an Siri. 
-  (Beispiel: Kurzbefehl Name "tanken"  -> Sprachbefehl: "Hey Siri, tanken")
-
-2. Aktion hinzufügen: Inhalte von URL Abrufen
-
-  http://DEINE-IP:8087/getPlainValue/DATENPUNKT
+  * Diesen Namen verwendet man als Sprachbefehl an Siri. 
   
-  DEINE-IP = Die Ip deines ioBrokers mit dem Port 8087 (Beispiel: 192.168.178.3:8087)
-  DATENPUNKT = Der Pfad deines Datenpunktes mit dem erstellten Text (Beispiel: 0_userdata.0.Siri.tanken)
+    * (Beispiel: Kurzbefehl Name "tanken"  -> Sprachbefehl: "Hey Siri, tanken")
 
-3. Aktion hinzufügen: Text sprechen
+### 2. Aktion hinzufügen: Inhalte von URL Abrufen
 
-  Inhalt der URL
+  * http://DEINE-IP:8087/getPlainValue/DATENPUNKT
+  
+    * DEINE-IP = Die Ip deines ioBrokers mit dem Port 8087 (Beispiel: 192.168.178.3:8087)
+  
+    * DATENPUNKT = Der Pfad deines Datenpunktes mit dem erstellten Text (Beispiel: 0_userdata.0.Siri.tanken)
+
+### 3. Aktion hinzufügen: Text sprechen
+
+  * Inhalt der URL
   
 Das sollte dann so aussehen:
 
