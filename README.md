@@ -46,8 +46,8 @@ Das sollte dann so aussehen:
 
 ### 4. Bestätigen
 
-    * Nun Bestätigen wir die Einstellungen mit fertig
+  * Nun Bestätigen wir die Einstellungen mit fertig
 
     * Fragen wir nun: Hey Siri, tanken
 
-        * Kommt als Antwort: Du zahlst 1 Euro 30 je Liter.
+    * Kommt als Antwort: Du zahlst 1 Euro 30 je Liter.
