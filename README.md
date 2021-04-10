@@ -9,11 +9,13 @@ Anschließend erzeugt man sich einen Datenpunkt mit dem Text der von Siri wieder
 
 Hier als Beispiel mit dem Tankerkönig Adapter und dem Datenpunkt tanken. 
 
+'''
 on("tankerkoenig.0.stations.cheapest.e5.feed", function(dp) {
     var tankePreis = getState("tankerkoenig.0.stations.cheapest.e5.feed").val;
 
     setState("0_userdata.0.Siri.tanken", "Du zahlst " +tankePreis+ " je Liter.");
 });
+'''
 
 Um nun mittels Siri darauf zugreifen zu können erstellen wir auf einem iOS-Gerät ein Kurzbefehl:
 
